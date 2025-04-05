@@ -6,8 +6,10 @@ public class LaunchStr1 {
 		String str = "Anand";
 		String str1 = new String("Anand");
 		String str2 = "Anand";
+		String str3 = new String("Anand");
 		System.out.println(str==str2);
 		System.out.println(str==str1);
+		System.out.println(str1==str3);
 	}
 
 }
