@@ -4,7 +4,7 @@ public class LaunchAA {
 
 	public static void main(String[] args) {
 		int a[]= {10,20,30,40};
-		int key = 30;
+		int key = 35;
 		
 		for(int i=0; i<a.length; i++) {
 			if(key == a[i]) {
