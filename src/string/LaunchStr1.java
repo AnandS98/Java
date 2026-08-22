@@ -13,8 +13,12 @@ public class LaunchStr1 {
 
 		char a ='c';
 		a++;
-		System.out.print(a);
+		System.out.println(a);
 
+		//Type Casting
+		float f = 10.5f;
+		int i = (int)f; //Explicit Type Casting
+		System.out.println(i); 
 	}
 
 }
