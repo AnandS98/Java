@@ -10,6 +10,11 @@ public class LaunchStr1 {
 		System.out.println(str==str2);
 		System.out.println(str==str1);
 		System.out.println(str1==str3);
+
+		char a ='c';
+		a++;
+		System.out.print(a);
+
 	}
 
 }
