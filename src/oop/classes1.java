@@ -21,6 +21,11 @@ class calculator{
         System.out.print("Div a number: ");
         return num1/num2;
     }
+
+    public int mod(int num1, int num2){
+        System.out.print("Mod a number: ");
+        return num1%num2;
+    }
 }
 
 public class classes1 {
@@ -30,6 +35,7 @@ public class classes1 {
         System.out.println(calc.sub(20, 10));
         System.out.println(calc.mul(10,20));
         System.out.println(calc.div(20, 10));
+        System.out.println(calc.mod(20, 11));
     }
     
 }
